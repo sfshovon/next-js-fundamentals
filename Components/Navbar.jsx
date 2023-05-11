@@ -7,7 +7,7 @@ import NavLogo from '../public/Next.png';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('rgb(240 253 250)');
+  const [navBg, setNavBg] = useState('rgb(243 244 246)');
   const handleNav = () => {
     setNav(!nav);
   };
